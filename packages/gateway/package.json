@@ -1,0 +1,13 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sleep 2; node index.js",
+    "dev": "sleep 2; nodemon index.js"
+  },
+  "keywords": [],
+  "author": "gnkz",
+  "license": "MIT"
+}

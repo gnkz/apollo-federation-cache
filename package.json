@@ -1,0 +1,24 @@
+{
+  "name": "federation-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run --stream start",
+    "dev": "lerna run --stream dev"
+  },
+  "keywords": [],
+  "author": "gnkz",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.18.5",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@apollo/federation": "^0.11.0",
+    "@apollo/gateway": "^0.11.0",
+    "apollo-server": "^2.9.9",
+    "apollo-server-plugin-response-cache": "^0.3.5"
+  }
+}
