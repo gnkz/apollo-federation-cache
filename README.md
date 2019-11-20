@@ -54,5 +54,4 @@ organizations: Resolving User.currentOrg
 organizations: Resolving User.currentOrg
 ```
 
-Which means that the `me` query is getting cached but the `me.currentOrg` is not
-even when `info.cacheControl.setCacheHint({ maxAge: 60 })` is set on the resolver
+Which means that the `me` query is getting cached but the `me.currentOrg` is not even when `info.cacheControl.setCacheHint({ maxAge: 60 })` is set on the resolver
