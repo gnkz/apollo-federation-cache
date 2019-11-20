@@ -3,7 +3,7 @@ const { buildFederatedSchema } = require("@apollo/federation");
 const responseCachePlugin = require("apollo-server-plugin-response-cache");
 
 const typeDefs = gql`
-  type Organization {
+  type Organization @key(fields: "id") {
     id: ID!
     name: String
   }
